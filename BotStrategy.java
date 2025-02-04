@@ -11,7 +11,7 @@ public class BotStrategy implements MoveStrategy{
             row=random.nextInt(board.getSize());
             col=random.nextInt(board.getSize());
         }while(!board.isCellEmpty(row,col));
-        System.out.println("Bot Chose move: "+row+" "+col);
+        System.out.println("Bot Chose move:  "+row+" "+col);
         return new int[]{row,col};
 
     }
